@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма Регистрации</title>
+    <style>"style.css"<style>
+</head>
+<body>
+    <h2>Форма Регистрации</h2>
+    <form action="/submit_registration" method="post">
+        <label for="username">Имя пользователя:</label><br>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm_password">Подтвердите пароль:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+</body>
+</html>
